@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
+    "module": "node16",
     "target": "esnext",
     "sourceMap": true,
     "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "build",
     "types": [
       "node"
     ]
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "src"
   ]
 }
